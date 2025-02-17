@@ -42,9 +42,9 @@ $$
 
 ### Parameter Values
 - $$\alpha_f = 0.05$$, $$\alpha_s = 0.08 $$
-- $$ \h_f = 5$$, $$h_s = 6 $$
-- $$ T_0 = 1$$, $$T_{\text{hot}} = 4 $$
-- $$ U_f = 1 $$
+- $$h_f = 5$$, $$h_s = 6 $$
+- $$T_0 = 1$$, $$T_{\text{hot}} = 4 $$
+- $$U_f = 1 $$
 
 ## Implementation
 
