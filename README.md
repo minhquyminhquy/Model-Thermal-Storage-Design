@@ -31,18 +31,20 @@ $$
 $$
 \bar{T}_f(x, t=0) = \bar{T}_s(x, t=0) = T_0, \quad x \in [0, 1]
 $$
+
 $$
 \frac{\partial \bar{T}_s}{\partial x}\bigg|_{x=0} = \frac{\partial \bar{T}_s}{\partial x}\bigg|_{x=1} = \frac{\partial \bar{T}_f}{\partial x}\bigg|_{x=1} = 0, \quad t \in [0, 1]
 $$
+
 $$
 \bar{T}_f(x=0, t) = \frac{T_{\text{hot}} - T_0}{1 + \exp(-200(t - 0.25))} + T_0, \quad t \in [0, 1]
 $$
 
 ### Parameter Values
 - $$\alpha_f = 0.05$$, $$\alpha_s = 0.08 $$
-- \( h_f = 5, \, h_s = 6 \)
-- \( T_0 = 1, \, T_{\text{hot}} = 4 \)
-- \( U_f = 1 \)
+- $$ \h_f = 5$$, $$h_s = 6 $$
+- $$ T_0 = 1$$, $$T_{\text{hot}} = 4 $$
+- $$ U_f = 1 $$
 
 ## Implementation
 
