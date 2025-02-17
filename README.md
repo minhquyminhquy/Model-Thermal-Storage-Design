@@ -28,19 +28,19 @@ $$
 $$
 
 ### Initial and Boundary Conditions
-
+```math
 $$
 \bar{T}_f(x, t=0) = \bar{T}_s(x, t=0) = T_0, \quad x \in [0, 1]
 $$
 
 $$
-\frac{\partial \bar{T}}{\partial x}\bigg\vert_{x=0} = \frac{\partial \bar{T}_s}{\partial x}\bigg\vert_{x=1} = \frac{\partial \bar{T}_f}{\partial x}\bigg\vert_{x=1} = 0, \quad t \in [0, 1]
+\frac{\partial \bar{T}_s}{\partial x}\bigg\vert_{x=0} = \frac{\partial \bar{T}_s}{\partial x}\bigg\vert_{x=1} = \frac{\partial \bar{T}_f}{\partial x}\bigg\vert_{x=1} = 0, \quad t \in [0, 1]
 $$
 
 $$
 \bar{T}_f(x=0, t) = \frac{T_{\text{hot}} - T_0}{1 + \exp(-200(t - 0.25))} + T_0, \quad t \in [0, 1]
 $$
-
+```
 
 ### Parameter Values
 - $$\alpha_f = 0.05$$, $$\alpha_s = 0.08 $$
