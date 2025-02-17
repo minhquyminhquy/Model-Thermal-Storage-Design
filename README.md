@@ -34,6 +34,10 @@ $$
 $$
 
 $$
+\frac{\partial \bar{T}_s}{\partial t} = \alpha_s \frac{\partial^2 \bar{T}_s}{\partial x^2} + h_s (\bar{T}_f - \bar{T}_s), \quad x \in [0, 1], \, t \in [0, 1]
+$$
+
+$$
 \frac{\partial \bar{T}_s}{\partial x}\bigg|_{x=0} = \frac{\partial \bar{T}_s}{\partial x}\bigg|_{x=1} = \frac{\partial \bar{T}_f}{\partial x}\bigg|_{x=1} = 0, \quad t \in [0, 1]
 $$
 
