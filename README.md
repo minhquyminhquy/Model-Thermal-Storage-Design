@@ -28,6 +28,7 @@ $$
 $$
 
 ### Initial and Boundary Conditions
+
 $$
 \bar{T}_f(x, t=0) = \bar{T}_s(x, t=0) = T_0, \quad x \in [0, 1]
 $$
@@ -55,9 +56,18 @@ The project uses PINNs to solve these equations. PINNs integrate the physical la
 - Integration of physical constraints via loss functions.
 - Visualization of temperature profiles for fluid and solid phases.
 
+### Training parameters
+- Architecture: 4 hidden dense layers, 20 neurons each layer.
+- Optimizer: Adam
+- Learning rate: 0.001
+- Epoch: 5000
+- Training time: ~5 minutes with GPU.
+
 ## Results
 
-The output of the model demonstrates the temperature distribution in the TES system during the charging phase. Detailed results and plots are provided in the report.
+The output of the model demonstrates the temperature distribution in the TES system during the charging phase. 
+
+![The temperature over time solid and fluid](images/visualize-heat-flow.png)
 
 ## How to Run
 
