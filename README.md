@@ -19,13 +19,13 @@ The project focuses on the **charging phase** of the **first cycle**, aiming to 
 
 The charging phase is governed by a set of reaction-convection-diffusion equations:
 
-\[
+$$
 \frac{\partial \bar{T}_f}{\partial t} + U_f \frac{\partial \bar{T}_f}{\partial x} = \alpha_f \frac{\partial^2 \bar{T}_f}{\partial x^2} - h_f (\bar{T}_f - \bar{T}_s), \quad x \in [0, 1], \, t \in [0, 1]
-\]
+$$
 
-\[
+$$
 \frac{\partial \bar{T}_s}{\partial t} = \alpha_s \frac{\partial^2 \bar{T}_s}{\partial x^2} + h_s (\bar{T}_f - \bar{T}_s), \quad x \in [0, 1], \, t \in [0, 1]
-\]
+$$
 
 ### Initial and Boundary Conditions
 \[
