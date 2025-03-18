@@ -70,21 +70,10 @@ The output of the model demonstrates the temperature distribution in the TES sys
 
 ![The temperature over time solid and fluid](images/visualize-heat-flow.png)
 
-## How to Run
+## How to Run with Google Colab
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/thermal-energy-storage-pinn.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the notebook in Google Colab for free GPU:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. View results:
+1. Upload Notebook with ```main.ipynb```
 
-    Output plots will be saved in the ```results``` directory. 
-   
+2. Upload ```Dataset.py``` and ```Model.py``` in the file section
+
+3. Choose runtime type to GPU, then run ```main.ipynb``` to reproduce the result
